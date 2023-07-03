@@ -1,0 +1,141 @@
+.get-in-touch-section {
+    width: 100%;
+    padding: 150px 0;
+}
+
+.get-in-touch-section .container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.get-in-touch-section .container .get-in-touch-form {
+    width: 72%;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 15px 30px;
+}
+
+.get-in-touch-section .container .get-in-touch-form .title {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding: 25px 0;
+    margin-bottom: 50px;
+}
+
+.get-in-touch-section .container .get-in-touch-form .title h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.get-in-touch-section .container .get-in-touch-form form .info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.get-in-touch-section .container .get-in-touch-form form .info input {
+    width: 31%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #7a7a7a;
+    padding: 0 15px;
+}
+
+.get-in-touch-section .container .get-in-touch-form form .message {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.get-in-touch-section .container .get-in-touch-form form .message textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 140px;
+    max-height: 180px;
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    color: #7a7a7a;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+.get-in-touch-section .container .get-in-touch-form .submit {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.get-in-touch-section .container .get-in-touch-form .submit button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.get-in-touch-section .container .get-in-touch-form .submit button:hover {
+    opacity: 0.9;
+}
+
+.get-in-touch-section .container .get-in-touch-info {
+    width: 22%;
+    padding: 30px;
+    background-color: var(--mainRedColor);
+    border-radius: 20px;
+    margin-left: 20px;
+    color: white;
+
+}
+
+.get-in-touch-section .container .get-in-touch-info .contact-way {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--mainBlurColor);
+}
+
+.get-in-touch-section .container .get-in-touch-info .contact-way:last-child {
+    border-bottom: 0;
+}
+
+.get-in-touch-section .container .get-in-touch-info .contact-way h4 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.get-in-touch-section .container .get-in-touch-info .contact-way p {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+@media (max-width: 992px) {
+    .get-in-touch-section .container {
+        flex-direction: column;
+        
+    }
+
+    .get-in-touch-section .container .get-in-touch-form {
+        margin-bottom: 25px;
+    }
+
+    .get-in-touch-section .container .get-in-touch-form,
+    .get-in-touch-section .container .get-in-touch-info {
+        width: 100%;
+        padding: 25px 15px;
+        margin-left: 0;
+        text-align: center;
+    }
+}

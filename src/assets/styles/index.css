@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../images/meetings-bg.jpg");
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --mainOrangeColor: #F3A325;
+    --mainRedColor: #A12C2F;
+    --mainBlueColor: #35A3BF;
+    --mainBlackColor: #1F272A;
+    --mainBlurColor: rgba(250,250,250,0.15);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+.main-button {
+    background-color: var(--mainRedColor);
+    padding: 12px 30px;
+    border-radius: 22px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.unactive-button {
+    background-color: #fff;
+    color: var(--mainBlackColor);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.unactive-button:hover {
+    background-color: var(--mainRedColor);
+    color: #fff;
+}
+
+.yellow-button {
+    background-color: var(--mainOrangeColor);
+}
+
+.current-page-a {
+    color: var(--mainOrangeColor)
+}
+
+/* small  */
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* medium  */
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large  */
+
+@media (min-width: 1050px) {
+    .container {
+        width: 1020px;
+    }
+}
+
+/* XLarge  */
+
+@media (min-width: 1250px) {
+    .container {
+        width: 1220px;
+    }
+}
+
+/* XXLarge  */
+
+@media (min-width: 1450px) {
+    .container {
+        width: 1420px;
+    }
+}

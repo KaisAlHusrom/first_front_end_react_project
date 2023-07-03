@@ -1,0 +1,24 @@
+.footer {
+    width: 100%;
+    padding: 50px;
+    border-top: 1px solid var(--mainBlurColor);
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer .container p {
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.footer .container p a {
+    color: var(--mainOrangeColor)
+}

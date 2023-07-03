@@ -1,0 +1,238 @@
+.header {
+    width: 100%;
+    height: 110px;
+    background-color: rgba(250,250,250,0.15);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 500;
+    transition: all .5s ease 0s;
+}
+
+.header-background {
+    position: fixed !important;
+    top: 0;
+    background-color: #fff;
+    z-index: 600;
+    height: 80px;
+}
+
+.header-background .header-container p {
+    color: #111 !important
+}
+
+.header-background ul li a {
+    color: #111
+}
+
+.header .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8px;
+}
+
+.header .header-container p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header .header-container ul {
+    display: flex;
+    transition: display 0.1s, height 0.5s ;  /* ther is no transition with this, should review*/
+}
+
+.header .header-container ul li {
+    margin-left: 18px;
+    position: relative;
+}
+
+
+
+.header .header-container ul li a {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+
+.header .header-container ul li a:hover {
+    color: var(--mainOrangeColor)
+}
+
+
+/*dropped menu*/
+.header .header-container ul li .dropped-menu {
+    flex-direction: column;
+    position: absolute;
+    width: 225px;
+    overflow: hidden;
+    transition: all 1s 0.5s linear; /*what is the problem ?????*/
+}
+
+
+.header .header-container ul li .dropped-menu li {
+    width: 100%;
+    margin-left: 0;
+}
+
+.header .header-container ul li .dropped-menu li:last-child a{
+    color: #111
+}
+
+.header .header-container ul li .dropped-menu li:last-child a:hover{
+    color: var(--mainOrangeColor)
+}
+
+.header .header-container ul li .dropped-menu li a {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    color: #111;
+    padding: 0 0 0 5px;
+    font-weight: 600;
+}
+
+.header .header-container ul li .dropped-menu li a:hover {
+    background-color: #f5f5f5;
+    color: var(--mainOrangeColor)
+}
+
+
+.header .header-container .bars {
+    position: relative;
+    height: 24px;
+    width: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+.header .header-container .bars span {
+    position: absolute;
+    height: 2px;
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.header .header-container .closed span:first-child {
+    width: 80%;
+}
+
+.header .header-container .closed span:nth-child(2) {
+    top: 11px;
+    width: 100%;
+}
+
+.header .header-container .closed span:last-child {
+    top: 22px;
+    width: 80%;
+}
+
+
+/* bars icons changes when open (start) */
+.opened span:nth-child(2){
+    display: none;
+}
+
+.opened span:first-child {
+    transform: rotate(45deg);
+    top: 11px;
+    width: 100%;
+}
+
+.opened span:last-child {
+    transform: rotate(-45deg);
+    top: 11px;
+    width: 100%;
+}
+
+/* bars icons changes when open (end) */
+
+
+
+/* menu changes when open (start) */
+.header .header-container .menu-open{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    left: 0;
+    top: 96px;
+    height: auto !important;
+}
+
+.header .header-container .menu-open li {
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.header .header-container .menu-open li:hover {
+    background-color: #f5f5f5;
+}
+
+.header .header-container .menu-open li a {
+    color: #111;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #f5f5f5;
+}
+
+/* menu changes when open (end) */
+
+
+/* small  */
+
+
+@media (max-width: 992px) {
+    .header {
+        background-color: #fff;
+    }
+
+    .header .header-container {
+        position: relative;
+    }
+
+    .header .header-container p {
+        color: #111;
+    }
+
+    .header .header-container .bars {
+        display: block;
+    }
+
+    .header .header-container ul {
+        overflow: hidden;
+        position: absolute;
+        transition: all 5s 1s ease-out;
+        height: 0;
+    }
+
+    .header .header-container ul li a{
+        padding-top: 8px ;
+        padding-bottom: 8px ;
+    }
+
+    .header .header-container ul li .dropped-menu {
+        position: relative;
+        height: auto;
+        width: 100%;
+        /* z-index: 5; */
+        
+    }
+
+
+
+}

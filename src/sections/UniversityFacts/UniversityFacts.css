@@ -1,0 +1,134 @@
+.university-facts-section {
+    background-image: url("./../../assets/images/facts-bg.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center; 
+}
+
+.university-facts-section .container {
+    display: flex;
+    align-items: center;
+}
+
+/*Start Left Section*/
+
+.university-facts-section .container .numeric-facts {
+    margin-right: 100px;
+    width: 50%;
+}
+
+.university-facts-section .container .numeric-facts .title {
+    margin-bottom: 100px;
+    width: 80%;
+}
+
+.university-facts-section .container .numeric-facts .title h3 {
+    font-size: 38px;
+    color: #fff;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+.university-facts-section .container .numeric-facts .number-boxes {
+    display: flex;
+    width: 100%;
+}
+
+.university-facts-section .container .numeric-facts .number-boxes .left-boxes {
+    padding-right: 50px;
+}
+
+.university-facts-section .container .numeric-facts .number-boxes .right-boxes {
+    padding-top: 25px;
+}
+
+.university-facts-section .container .numeric-facts .number-boxes .left-boxes .number-box,
+.university-facts-section .container .numeric-facts .number-boxes .right-boxes .number-box {
+    padding: 35px 75px;
+    background-color: var(--mainBlurColor);
+    margin-bottom: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.university-facts-section .container .numeric-facts .number-boxes .left-boxes .number-box .number,
+.university-facts-section .container .numeric-facts .number-boxes .right-boxes .number-box .number {
+    color: var(--mainOrangeColor);
+    font-weight: 700;
+    font-size: 36px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.university-facts-section .container .numeric-facts .number-boxes .left-boxes .number-box .label,
+.university-facts-section .container .numeric-facts .number-boxes .right-boxes .number-box .label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+/*End Left Section*/
+
+
+/*Start Right Section*/
+
+.university-facts-section .container .video-facts {
+    /* margin-left: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-image: url("./../../assets/images/video-item-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px;
+    height: 400px;
+}
+
+@media (max-width: 992px) {
+    .university-facts-section .container {
+        flex-direction: column;
+    }
+
+    .university-facts-section .container .numeric-facts {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .university-facts-section .container .numeric-facts .title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .university-facts-section .container .numeric-facts .number-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .university-facts-section .container .numeric-facts .number-boxes .left-boxes {
+        padding-right: 0;
+
+    }
+
+    .university-facts-section .container .numeric-facts .number-boxes .right-boxes {
+        padding-top: 0;
+    }
+
+    .university-facts-section .container .video-facts {
+        width: 100%;
+    }
+}
