@@ -18,8 +18,8 @@ const App = _ => {
                 <Header></Header>
                 <Container>
                     <Routes>
-                        <Route path="/" element={<MainPage />} />
-                        <Route exact path="/meetings/*" element={<MeetingPage />} />
+                        <Route path="/first_front_end_react_project/" element={<MainPage />} />
+                        <Route exact path="/first_front_end_react_project/meetings/*" element={<MeetingPage />} />
                     </Routes>
                 </Container>
                 <Footer></Footer>
