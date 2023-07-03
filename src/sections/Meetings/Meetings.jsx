@@ -77,7 +77,7 @@ const Meetings = () => {
                             return (
                                 <NavLink  
                                     key={i}
-                                    to={`/meetings/page-${currentPage}/category-${category.replace(" ", "")}`} 
+                                    to={`/first_front_end_react_project/meetings/page-${currentPage}/category-${category.replace(" ", "")}`} 
                                     onClick={() => {
                                         setCategory(category.replace(" ", ""))
                                     }} 
@@ -96,7 +96,7 @@ const Meetings = () => {
 
                 <div className="pagination">
                     <NavLink 
-                    to={`/meetings/page-${currentPage - 1}/category-${category}`} 
+                    to={`/first_front_end_react_project/meetings/page-${currentPage - 1}/category-${category}`} 
                     style={{
                         opacity: currentPage === 1 ? "0.5" : "1",
                         pointerEvents: currentPage === 1 ? "none" : "auto"
@@ -111,7 +111,7 @@ const Meetings = () => {
                             return (
                                 <NavLink 
                                     key={i} 
-                                    to={`/meetings/page-${i}/category-${category}`} 
+                                    to={`/first_front_end_react_project/meetings/page-${i}/category-${category}`} 
                                     onClick={() => setCurrentPage(i)} 
                                     className={({ isActive }) => isActive ? "main-button" : "main-button unactive-button"}
                                 >
@@ -121,7 +121,7 @@ const Meetings = () => {
                         })
                     }
                     <NavLink 
-                    to={`/meetings/page-${currentPage + 1}/category-${category}`} 
+                    to={`/first_front_end_react_project/meetings/page-${currentPage + 1}/category-${category}`} 
                     className="main-button unactive-button next-button" 
                     onClick={() => setCurrentPage(prev => prev + 1)}
                     style={{

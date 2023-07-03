@@ -49,25 +49,25 @@ const Header = _ => {
                     <span></span>
                 </div>
                 <ul className={`main-menu ${isOpen ? 'menu-open' : ''}`} ref={links}>
-                    <NavItem href="/" class="current-page-a">
+                    <NavItem href="/first_front_end_react_project/" class="current-page-a">
                         Home
                     </NavItem>
-                    <NavItem href="/meetings/page-1/category-allmeetings">
+                    <NavItem href="/first_front_end_react_project/meetings/page-1/category-allmeetings">
                         Meetings
                     </NavItem>
-                    <NavItem href="/apply">
+                    <NavItem href="/first_front_end_react_project/apply">
                         apply now
                     </NavItem>
                     <NavItemDrop droppedItems={[
-                        <NavItem href="/up_comming_meetings" key="0">upcomming meetings</NavItem>,
-                        <NavItem href="/meetings_details" key="1">meetings details</NavItem>
+                        <NavItem href="/first_front_end_react_project/up_comming_meetings" key="0">upcomming meetings</NavItem>,
+                        <NavItem href="/first_front_end_react_project/meetings_details" key="1">meetings details</NavItem>
                     ]}>
                         Pages
                     </NavItemDrop>
-                    <NavItem href="/courses">
+                    <NavItem href="/first_front_end_react_project/courses">
                         courses
                     </NavItem>
-                    <NavItem href="/contact_us">
+                    <NavItem href="/first_front_end_react_project/contact_us">
                         contact us
                     </NavItem>
                 </ul>
