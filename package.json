@@ -2,7 +2,7 @@
   "name": "edu-meeting",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kaisalhusrom.github.io/first_front_end_react_project/",
+  "homepage": "http://kaisalhusrom.github.io/first_front_end_react_project/public/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
