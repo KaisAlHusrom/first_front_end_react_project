@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { MeetingsHeader, Meetings, Person } from '../../sections'
+import { MeetingsHeader, Meetings } from '../../sections'
 
 const MeetingPage = () => {
   return (

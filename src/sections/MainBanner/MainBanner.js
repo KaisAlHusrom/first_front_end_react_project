@@ -1,5 +1,5 @@
 import React from "react";
-import BgVideo from "./../../assets/images/leviVsKenny.mp4"
+import BgVideo from "./../../assets/images/sea.mp4"
 import "./MainBanner.css"
 
 

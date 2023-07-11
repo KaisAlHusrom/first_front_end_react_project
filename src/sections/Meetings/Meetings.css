@@ -10,7 +10,8 @@
     padding: 50px 0;
 }
 
-.meetings-section .container .categories li {
+.meetings-section .container .categories li,
+.meetings-section .container .categories a {
     margin-left: 15px;
 }
 
@@ -127,7 +128,8 @@
         flex-direction: column;
     }
 
-    .meetings-section .container .categories li{
+    .meetings-section .container .categories li,
+    .meetings-section .container .categories a{
         width: 80%;
         margin-bottom: 15px;
         margin-left: 0;
