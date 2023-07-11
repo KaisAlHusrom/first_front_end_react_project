@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/first_front_end_react_project/static/css/main.4875c560.css",
-    "main.js": "/first_front_end_react_project/static/js/main.02394cfa.js",
-    "static/media/leviVsKenny.mp4": "/first_front_end_react_project/static/media/leviVsKenny.5920b700e7e0e1924aef.mp4",
+    "main.css": "/first_front_end_react_project/static/css/main.7fef5c8f.css",
+    "main.js": "/first_front_end_react_project/static/js/main.514203ae.js",
+    "static/media/sea.mp4": "/first_front_end_react_project/static/media/sea.73773e20ae162d8f23f4.mp4",
     "static/media/meeting-02(kais).jpg": "/first_front_end_react_project/static/media/meeting-02(kais).3c500a818ff4c61835a9.jpg",
     "static/media/apply-bg.jpg": "/first_front_end_react_project/static/media/apply-bg.c4e62dba69de5c869ccf.jpg",
     "static/media/meetings-bg.jpg": "/first_front_end_react_project/static/media/meetings-bg.230aae3ec90cd5b9b42a.jpg",
@@ -17,11 +17,11 @@
     "static/media/course-04.jpg": "/first_front_end_react_project/static/media/course-04.2a4388d5434e2f6afed0.jpg",
     "static/media/course-02.jpg": "/first_front_end_react_project/static/media/course-02.9c0c8a0d35ab2582a581.jpg",
     "index.html": "/first_front_end_react_project/index.html",
-    "main.4875c560.css.map": "/first_front_end_react_project/static/css/main.4875c560.css.map",
-    "main.02394cfa.js.map": "/first_front_end_react_project/static/js/main.02394cfa.js.map"
+    "main.7fef5c8f.css.map": "/first_front_end_react_project/static/css/main.7fef5c8f.css.map",
+    "main.514203ae.js.map": "/first_front_end_react_project/static/js/main.514203ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.4875c560.css",
-    "static/js/main.02394cfa.js"
+    "static/css/main.7fef5c8f.css",
+    "static/js/main.514203ae.js"
   ]
 }
