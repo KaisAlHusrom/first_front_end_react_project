@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/first_front_end_react_project/static/css/main.7fef5c8f.css",
+    "main.css": "/first_front_end_react_project/static/css/main.89d3a33d.css",
     "main.js": "/first_front_end_react_project/static/js/main.514203ae.js",
     "static/media/sea.mp4": "/first_front_end_react_project/static/media/sea.73773e20ae162d8f23f4.mp4",
     "static/media/meeting-02(kais).jpg": "/first_front_end_react_project/static/media/meeting-02(kais).3c500a818ff4c61835a9.jpg",
     "static/media/apply-bg.jpg": "/first_front_end_react_project/static/media/apply-bg.c4e62dba69de5c869ccf.jpg",
+    "static/media/facts-bg-men.jpg": "/first_front_end_react_project/static/media/facts-bg-men.b3c9ce83487d1b9e6cfe.jpg",
     "static/media/meetings-bg.jpg": "/first_front_end_react_project/static/media/meetings-bg.230aae3ec90cd5b9b42a.jpg",
     "static/media/meetings_page_bg.jpg": "/first_front_end_react_project/static/media/meetings_page_bg.b5729c1b9a4bd7ff4d79.jpg",
     "static/media/meeting-01(kais).png": "/first_front_end_react_project/static/media/meeting-01(kais).d306ad5c6aaf70e82f0e.png",
     "static/media/facts-bg.jpg": "/first_front_end_react_project/static/media/facts-bg.f2ba04b5ceed38959c36.jpg",
     "static/media/meeting-04.jpg": "/first_front_end_react_project/static/media/meeting-04.7ca80fbd8af2b2038a4f.jpg",
-    "static/media/video-item-bg.jpg": "/first_front_end_react_project/static/media/video-item-bg.f0f236591ad2264ff986.jpg",
     "static/media/meeting-03.jpg": "/first_front_end_react_project/static/media/meeting-03.709aca9d158b86278f09.jpg",
     "static/media/course-03.jpg": "/first_front_end_react_project/static/media/course-03.eb74a584c969be2c5b06.jpg",
     "static/media/course-01.jpg": "/first_front_end_react_project/static/media/course-01.37c486a1d00db491a36e.jpg",
     "static/media/course-04.jpg": "/first_front_end_react_project/static/media/course-04.2a4388d5434e2f6afed0.jpg",
     "static/media/course-02.jpg": "/first_front_end_react_project/static/media/course-02.9c0c8a0d35ab2582a581.jpg",
     "index.html": "/first_front_end_react_project/index.html",
-    "main.7fef5c8f.css.map": "/first_front_end_react_project/static/css/main.7fef5c8f.css.map",
+    "main.89d3a33d.css.map": "/first_front_end_react_project/static/css/main.89d3a33d.css.map",
     "main.514203ae.js.map": "/first_front_end_react_project/static/js/main.514203ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fef5c8f.css",
+    "static/css/main.89d3a33d.css",
     "static/js/main.514203ae.js"
   ]
 }
